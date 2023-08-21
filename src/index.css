@@ -1,3 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2&family=Barlow:wght@400;500&family=Dancing+Script:wght@600&family=Dawning+of+a+New+Day&family=EB+Garamond&family=Estonia&family=Julius+Sans+One&family=Kurale&family=Londrina+Solid:wght@100;400&family=Nova+Round&family=Pacifico&family=Parisienne&family=Raleway:wght@900&family=Satisfy&family=Sevillana&family=Ubuntu+Condensed&family=Ubuntu:wght@300&display=swap');
+
+
+@layer components {
+  .btn-navbar {
+    @apply bg-PrimarySurfaceDim font-bold text-OnNeutralButtons rounded-full 
+    hover:bg-OnNeutralActive hover:text-OnNeutralButtons   
+    focus:border-OnNeutralActive focus:bg-NeutralButtonSurface focus:border-2 focus:text-OnNeutralActive
+    mb-4 h-12 ;
+  }
+
+  .backbutton {
+    @apply hover:opacity-40
+  }
+
+  .btn-addevent {
+    @apply bg-SecondarySurface text-OnNeutralButtons h-12 mb-8 w-1/5 text-center font-medium rounded-lg
+    hover:text-NeutralSurfaceBgUp hover:opacity-80
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
