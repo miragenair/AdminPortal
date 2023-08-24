@@ -3,7 +3,7 @@ import ramuimg from './images/Farmer-head.svg'
 
 function Navbar() {
   return (
-    <div className='bg-PrimarySurfaceDimmer w-1/5 h-screen flex flex-col justify-between '>
+    <div className='bg-PrimarySurfaceDimmer w-1/5 h-screen flex flex-col justify-between sticky top-0'>
       <div className="">
         <div className="p-4 text-center text-OnNeutralButtons font-bold font text-xl">
           NAVACHAR

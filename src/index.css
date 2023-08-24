@@ -16,6 +16,12 @@
     @apply hover:opacity-40
   }
 
+  .btn-form {
+    @apply bg-NeutralButtonShadowLight
+    h-12  pr-8 pl-8 text-center font-medium rounded-lg
+    hover:text-NeutralSurfaceBgUp hover:bg-OnNeutralActive hover:opacity-80
+  }
+
   .btn-addevent {
     @apply bg-SecondarySurface text-OnNeutralButtons h-12 mb-8 w-1/5 text-center font-medium rounded-lg
     hover:text-NeutralSurfaceBgUp hover:opacity-80

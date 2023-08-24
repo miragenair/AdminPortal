@@ -4,7 +4,7 @@ import profileimg from './images/profileimg.jpg'
 
 function EventsNavbar() {
     return (
-        <div className='h-16 w-full border-none bg-NeutralSurfaceBgUp flex justify-between items-center p-8 drop-shadow-sm'>
+        <div className='h-16 w-full border-none bg-NeutralSurfaceBgUp flex justify-between items-center p-8 drop-shadow-sm sticky top-0 z-10'>
             <div className='flex flex-row'>
                 <button className='backbutton'>
                     <img src={back} alt="" className='pr-2' />
@@ -14,7 +14,7 @@ function EventsNavbar() {
                 </div>
             </div>
             <div>
-                this is center
+                this is the placeholder for searchbar
             </div>
             <div className='flex flex-row items-center'>
                 <div className='text-OnNeutralActive pr-4 pl-4 font-extrabold text-base'>
